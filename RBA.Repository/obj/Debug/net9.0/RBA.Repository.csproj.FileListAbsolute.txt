@@ -1,0 +1,16 @@
+C:\Rahmat\RBA\RBA.Repository\bin\Debug\net9.0\RBA.Repository.deps.json
+C:\Rahmat\RBA\RBA.Repository\bin\Debug\net9.0\RBA.Repository.dll
+C:\Rahmat\RBA\RBA.Repository\bin\Debug\net9.0\RBA.Repository.pdb
+C:\Rahmat\RBA\RBA.Repository\bin\Debug\net9.0\RBA.Domain.dll
+C:\Rahmat\RBA\RBA.Repository\bin\Debug\net9.0\RBA.Domain.pdb
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repository.csproj.AssemblyReference.cache
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repository.AssemblyInfoInputs.cache
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repository.AssemblyInfo.cs
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repository.csproj.CoreCompileInputs.cache
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repository.sourcelink.json
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repo.A792AB2F.Up2Date
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repository.dll
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\refint\RBA.Repository.dll
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\RBA.Repository.pdb
+C:\Rahmat\RBA\RBA.Repository\obj\Debug\net9.0\ref\RBA.Repository.dll

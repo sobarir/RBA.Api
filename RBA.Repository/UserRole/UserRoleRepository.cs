@@ -32,6 +32,13 @@ public class UserRoleRepository(IFreeSql sql, ILogger<RepositoryBase<UserRole>> 
       .ExecuteAffrowsAsync() > 0;
   }
 
+  public async Task<IEnumerable<UserRole>> GetAllAsync(string user_cd, int month)
+  {
+    return await _sql.Select<UserRole>()
+      .Where(a => a.User_Cd == user_cd && a.Created_Date!.Value.Month <= month)
+      .ToListAsync();
+  }
+
   public override Task<bool> DeleteAsync(object? id)
   {
     throw new NotImplementedException();

@@ -7,6 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Contracts\Responses\**" />
+    <Content Remove="Contracts\Responses\**" />
+    <EmbeddedResource Remove="Contracts\Responses\**" />
+    <None Remove="Contracts\Responses\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Remove="log20250327.txt" />
   </ItemGroup>
 
@@ -20,10 +27,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RBA.Repository\RBA.Repository.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Contracts\Responses\" />
   </ItemGroup>
 
 </Project>

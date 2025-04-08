@@ -1,0 +1,868 @@
+[
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "actions",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Action",
+        "Type": "RBA.Domain.Entities.Action",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsActionCreateActionEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "actions",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.Action, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsActionGetAllActionsEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "actions",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Action",
+        "Type": "RBA.Domain.Entities.Action",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsActionUpdateActionEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "actions/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsActionDeleteActionEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "actions/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RBA.Domain.Entities.Action",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsActionGetActionEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "applications",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Application",
+        "Type": "RBA.Domain.Entities.Application",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsApplicationCreateApplicationEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "applications",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.Application, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsApplicationGetAllApplicationsEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "applications",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Application",
+        "Type": "RBA.Domain.Entities.Application",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsApplicationUpdateApplicationEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "applications/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsApplicationDeleteApplicationEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "applications/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RBA.Domain.Entities.Application",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsApplicationGetApplicationEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "appusers",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUser",
+        "Type": "RBA.Domain.Entities.AppUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsAppUserCreateAppUserEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "appusers",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.AppUser, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsAppUserGetAllAppUsersEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "appusers",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AppUser",
+        "Type": "RBA.Domain.Entities.AppUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsAppUserUpdateAppUserEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "appusers/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsAppUserDeleteAppUserEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "appusers/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RBA.Domain.Entities.AppUser",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsAppUserGetAppUserEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleactions",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleAction",
+        "Type": "RBA.Domain.Entities.RoleAction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRoleActionCreateRoleActionEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleactions",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.RoleAction, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRoleActionGetAllRoleActionsEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleactions",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleAction",
+        "Type": "RBA.Domain.Entities.RoleAction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRoleActionUpdateRoleActionEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleactions/role/{role_id:int}/action/{action_id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleActionRequest",
+        "Type": "RBA.Api.Contracts.Requests.RoleActionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRoleActionDeleteRoleActionEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleactions/role/{role_id:int}/action/{action_id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoleActionRequest",
+        "Type": "RBA.Api.Contracts.Requests.RoleActionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RBA.Domain.Entities.RoleAction",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRoleActionGetRoleActionEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleplants",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RolePlant",
+        "Type": "RBA.Domain.Entities.RolePlant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRolePlantCreateRolePlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleplants",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RolePlant",
+        "Type": "RBA.Domain.Entities.RolePlant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRolePlantUpdateRolePlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleplants",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.RolePlant, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsActionGetAllRolePlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleplants/{id:int}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRolePlantDeleteRolePlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleplants/{id:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RBA.Domain.Entities.RolePlant",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRolePlantGetRolePlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "roleplants/plant/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.RolePlant, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsRolePlantGetAllRolePlantsByPlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userallowedplants",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserAllowedPlant",
+        "Type": "RBA.Domain.Entities.UserAllowedPlant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserAllowedPlantCreateUserAllowedPlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userallowedplants",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.UserAllowedPlant, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserAllowedPlantGetAllUserAllowedPlantsEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "UserAllowedPlants",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserAllowedPlant",
+        "Type": "RBA.Domain.Entities.UserAllowedPlant",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserAllowedPlantUpdateUserAllowedPlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userallowedplants/user/{user_cd}/plant/{plant_cd}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserAllowedPlantRequest",
+        "Type": "RBA.Api.Contracts.Requests.UserAllowedPlantRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserAllowedPlantDeleteUserAllowedPlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userallowedplants/user/{user_cd}/plant/{plant_cd}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserAllowedPlantRequest",
+        "Type": "RBA.Api.Contracts.Requests.UserAllowedPlantRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RBA.Domain.Entities.UserAllowedPlant",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserAllowedPlantGetUserAllowedPlantEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userroles",
+    "HttpMethod": "POST",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserRole",
+        "Type": "RBA.Domain.Entities.UserRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserRoleCreateUserRoleEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userroles",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.UserRole, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserRoleGetAllUserRolesEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userroles",
+    "HttpMethod": "PUT",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserRole",
+        "Type": "RBA.Domain.Entities.UserRole",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserRoleUpdateUserRoleEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userroles/role/{role_id:int}/user/{user_cd}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserRoleRequest",
+        "Type": "RBA.Api.Contracts.Requests.UserRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 204
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserRoleDeleteUserRoleEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userroles/role/{role_id:int}/user/{user_cd}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserRoleRequest",
+        "Type": "RBA.Api.Contracts.Requests.UserRoleRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RBA.Domain.Entities.UserRole",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserRoleGetUserRoleEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userroles/user/{user_cd}/m/{month:int}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserRoleByUserRequest",
+        "Type": "RBA.Api.Contracts.Requests.UserRoleByUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.UserRole, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserRoleGetUserRolesByUserEndpoint"
+  },
+  {
+    "ContainingType": "FastEndpoints.MainExtensions\u002B\u003C\u003Ec",
+    "Method": "\u003CMapFastEndpoints\u003Eb__2_1",
+    "RelativePath": "userrolesinfo/user/{id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "EntityRequestById",
+        "Type": "RBA.Api.Contracts.EntityRequestById",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[RBA.Domain.Entities.V_UserRolePlant, RBA.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "RBAApiEndPointsUserRoleGetUserRolePlantsEndpoint"
+  }
+]

@@ -12,4 +12,11 @@ public class RolePlantRepository(IFreeSql sql, ILogger<RolePlantRepository> logg
     return CreateIdentityAsync(entity);
   }
 
+  public async Task<IEnumerable<RolePlant>> GetAllByPlantAsync(string plant_cd)
+  {
+    return await _sql.Select<RolePlant>()
+      .Where(a => a.Plant_Cd == plant_cd)
+      .ToListAsync();
+  }
+
 }

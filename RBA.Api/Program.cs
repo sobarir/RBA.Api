@@ -4,6 +4,7 @@ using FastEndpoints;
 using Serilog;
 
 using RBA.Repository;
+using System.Text.Json;
 
 var builder = WebApplication.CreateBuilder(args);
 var config = builder.Configuration;
@@ -36,13 +37,18 @@ builder.Services.AddSingleton<IRoleActionRepository, RoleActionRepository>();
 builder.Services.AddSingleton<IRolePlantRepository, RolePlantRepository>();
 builder.Services.AddSingleton<IUserAllowedPlantRepository, UserAllowedPlantRepository>();
 builder.Services.AddSingleton<IUserRoleRepository, UserRoleRepository>();
+builder.Services.AddSingleton<IVUserRolePlantRepository, VUserRolePlantRepository>();
 
 builder.Services.AddFastEndpoints(o => o.IncludeAbstractValidators = true);
 builder.Services.AddOpenApi();
 
 var app = builder.Build();
 
-app.UseFastEndpoints();
+//app.UseFastEndpoints();
+app.UseFastEndpoints(c =>
+{
+  c.Serializer.Options.PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower;
+});
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

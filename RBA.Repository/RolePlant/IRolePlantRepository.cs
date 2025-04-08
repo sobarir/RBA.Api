@@ -1,6 +1,10 @@
-﻿namespace RBA.Repository;
+﻿using RBA.Domain.Entities;
 
-public interface IRolePlantRepository : IRepositoryBase<Domain.Entities.RolePlant>
+namespace RBA.Repository;
+
+public interface IRolePlantRepository : IRepositoryBase<RolePlant>
 {
+
+  Task<IEnumerable<RolePlant>> GetAllByPlantAsync(string plant_cd);
 
 }
